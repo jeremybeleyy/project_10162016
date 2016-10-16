@@ -1,0 +1,112 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    color: white;
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+nav{
+  background: #EB2938;
+}
+
+.header{
+  color: #EB2938;
+  font-family: 'Montserrat';
+}
+
+video#bgvid{
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  z-index: -100;
+  filter: blur(10px) grayscale(100%);
+}
+
+.fa{
+  padding-right: 1vh;
+}
+
+a{
+  color: white;
+  transition: color .2s ease-in;
+}
+
+#facebook a:hover{
+  color: #3b5999;
+}
+#twitter a:hover{
+  color: #55acee;
+}
+#instagram a:hover{
+  color: #e4405f;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.content-row{
+  background: rgba(255,255,255,0.2);
+  margin-top: 15vh;
+  height: 40vh;
+}
+
+.gijo-form{
+  margin-top: 3vh;
+
+}
+
+.input-field{
+  color: white;
+  font-family: 'Kanit';
+}
+
+/* label color */
+ .input-field label {
+   color: #fff;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label,.input-field input[type=email]:focus + label,.input-field input[type=tel]:focus + label   {
+   color: #EB2938;
+   font-family: 'Raleway';
+   font-weight: bold;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus,.input-field input[type=email]:focus,.input-field input[type=tel]:focus {
+   border-bottom: 1px solid #EB2938 ;
+   box-shadow: 0 1px 0 0 #212121 ;
+ }
+
+ .sub{
+   margin-left: 50vh;
+   width: 100%;
+ }
+
+.info{
+  font-family: 'Basic';
+  font-size: 14px;
+}
+h5{
+  font-family: 'Montserrat';
+}
+.footer-copyright{
+  font-family: 'Montserrat';
+  font-size: 10px;
+}
+.connect li a{
+  font-family: 'Basic';
+  font-size: 14px;
+}
